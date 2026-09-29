@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+  background-color: rgb(21, 30, 39);
+}
+a {
+  color: white !important;
+}
+.wrap-text {
+  -webkit-line-clamp: unset !important;
+}
+.logo-text {
+  font-family: "Anton", sans-serif;
+}
+.title-text {
+  font-family: "Bebas Neue", sans-serif;
+}
+.full-height {
+  height: 100vh;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
+.btn {
+  width: 9em;
+  font-size: 1.1em !important;
+  border-radius: 10px;
+  border: 1px solid white;
+  color: white !important;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+.padding-tb {
+  padding: 5% 0px;
+}
+.padding-lr {
+  padding: 0px 17%;
+}
+.padding-a {
+  padding: 5% 20%;
+}
+.padding-l {
+  padding-left: 20%;
+}
+.padding-r {
+  padding-right: 20%;
+}
+.flex-center-center-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.bg-dark-gray {
+  background-color: #1e1e1e;
+}
+.bg-black {
+  background-color: #000000;
+}
+.bg-red {
+  background-color: #f81b28;
+}
+.custom-bg-1 {
+  background-image: url("../images/form-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.custom-bg-2 {
+  background-image: url("../images/bg-pattern.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bottom {
+  position: absolute;
+  bottom: 0 !important;
+}
+.res-img {
+  width: 65%;
+}
+
+/* Mobile */
+@media screen and (max-device-width: 480px) {
+  .res-img {
+    width: 40%;
+  }
+  .res-center {
+    text-align: center;
+  }
+}
+
+/* tablet */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .res-img {
+    width: 50%;
+  }
+}

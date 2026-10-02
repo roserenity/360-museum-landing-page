@@ -2,6 +2,8 @@
 
 A single-page landing site for a virtual museum celebrating Filipino basketball fandom. Built with Nuxt 2 + Vuetify.
 
+LINK: https://hoops-landing-page.netlify.app/
+
 > **Note:** This started as client work. All licensed logos, photos, video, fonts, and real people's data were removed and replaced with original SVG artwork and CC0 / public-domain photos (see [CREDITS.md](CREDITS.md)). All names and content are fictional.
 
 ## Sections
